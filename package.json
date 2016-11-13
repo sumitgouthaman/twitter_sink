@@ -1,0 +1,19 @@
+{
+  "name": "twittersink",
+  "version": "1.0.0",
+  "description": "Siphon off live tweets from twitter about a particular topic into a csv file",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "Twitter",
+    "csv"
+  ],
+  "author": "Sumit Gouthaman",
+  "dependencies": {
+    "csv": "^1.1.0",
+    "request": "^2.74.0",
+    "twitter": "^1.4.0"
+  }
+}
